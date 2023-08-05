@@ -27,5 +27,6 @@ class QuestionController(val repository : QuestionRepository) {
         return repository.findAll().map{it.convertToView()}
 
     }
+
 }
 

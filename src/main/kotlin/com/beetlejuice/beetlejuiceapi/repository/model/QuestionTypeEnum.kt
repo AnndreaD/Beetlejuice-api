@@ -13,7 +13,8 @@ import javax.persistence.Table
 public enum class QuestionType(val questionType: String){
     DILEMMA("DILEMMA"),
     NHIE("NHIE"), //Never have i ever
-    POINT("POINT")
+    POINT("POINT"),
+    THUMB("THUMB")// Thumb up or down
 }
 
 
